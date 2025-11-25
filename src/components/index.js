@@ -1,7 +1,5 @@
-import Navbar from "./Navbar";
-import Welcome from "./Welcome";
+import Navbar from "#components/Navbar.jsx";
+import Welcome from "#components/Welcome.jsx";
+import Dock from "#components/Dock.jsx";
 
-export default {
-  Navbar,
-  Welcome,
-};
+export { Navbar, Welcome, Dock };
